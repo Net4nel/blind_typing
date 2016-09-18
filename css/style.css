@@ -1,0 +1,248 @@
+body{
+    background-image : url(../img/back.jpg);
+    o-background-size: cover;
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+header{
+    position: relative;
+    background-color: #ff3333;
+    height: 65px;
+    color: #FFF;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    align-content: center;
+    padding-top: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#color_2{
+    color: #ffcc00;
+}
+#icon{
+    content:url(../img/keyboard.png);
+    position: absolute;
+    top:1px;
+    width: 75px;
+    height: 75px;
+    right: 380px;
+    
+}
+#main{   
+    top: 10px;
+    position: relative;
+    border-radius: 25px;
+    background-color: White;
+    background-size:800px 500px;
+    background-repeat:no-repeat;
+    margin:0 auto;
+    margin-top:00px;
+    padding:8px;
+    width:800px;
+    height:450px;
+    box-shadow: 2px 5px 3px #888888;   
+}
+
+#given_word{
+    position: relative;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    background-color: #ff3333;
+    width: 800px;
+    height: 210px;
+}
+
+#welcome{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 4;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 48px;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    padding-left: 100px;
+}
+#instructions{
+    top: 35px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 4;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 48px;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    padding-left: 280px;
+}
+
+#instructions_2{
+    top: 55px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 4;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 48px;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    padding-left: 300px;
+    
+}
+#given_text{
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-family: 'Droid serif', serif; font-size: 36px; font-weight: 400; font-style: italic; margin: 0 0 12px;
+    line-height: 4;
+    font-size: 30px;
+}
+
+#text_area{
+    top: 150px;
+    position: absolute;
+    background-color: #ffcc00;
+    width: 800px;
+    height: 188px;
+    padding-top: 120px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;   
+}
+#input_text{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
+    width: 650px;
+    height: 170px;
+    box-shadow: 0px 3px 3px #888888;
+    vertical-align:middle;
+    text-align:center;
+    font-size: 20px;
+    border-radius: 25px;
+    resize: none;
+    outline:none;
+}
+
+#stats{
+    top: 358px;
+    position: absolute;
+    background-color: #ff3333;
+    width: 350px;
+    height: 100px;
+    padding-top: 00px;
+    border-bottom-right-radius: 120px;
+    border-radius: 0 120px 0 25px;
+    moz-border-radius: 0 120px 0 120px;
+    webkit-border-radius: 0 120px 0 120px;
+}
+.stats_class{
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+#buttons{
+    top: 358px;
+    right: 8px;
+    position: absolute;
+    background-color: #ff3333;
+    width: 350px;
+    height: 100px;
+    padding-top: 00px;
+    border-bottom-right-radius: 25px;
+    border-radius: 120px 0 25px 0;
+    moz-border-radius: 120px 0 120px 0;
+    webkit-border-radius: 120px 0 120px 0;
+}
+
+.animate {
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button {
+	position: relative;
+	padding: 8px 26px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue {
+	background-color: #ffcc00;
+	border-bottom: 5px solid #e69900;
+	text-shadow: 0px -2px #b37700;
+}
+
+.red {
+	background-color: #ffcc00;
+	border-bottom: 5px solid #e69900;
+	text-shadow: 0px -2px #b37700;
+}
+
+.action-button:active {
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+.but{
+    left: 75px;
+    top: 25px;
+}
+
+
+.highlight{
+    color: white;
+    font-weight: bold;
+}
+
+#statistics{
+    text-decoration: underline;
+}
+
+
+#copyrights{
+    bottom: 20px;
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    float: inherit;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 4;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 48px;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    padding-left: 570px;
+    
+    
+    
+}

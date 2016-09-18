@@ -1,0 +1,49 @@
+<!--
+Netanel Amiel | ID: 303136972.
+Danny Volpov | ID: 306319138.
+-->
+
+<!doctype html5>
+<html>
+    <head>
+        <title>AutoCorrect Me</title>
+        
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+
+        <script type="text/javascript" src="correct.js"></script>
+        <script>$(document).ready(on_load);</script>
+        
+    </head>
+    <body>
+        <header>Auto<span id="color_2">Correct</span> Me
+        <div id="icon"></div></header>
+        
+        <div id="main">
+            <div id="given_word">
+                <div id="Welcome">Welcome to AutoCorrent Me!</div>
+                <div id="instructions"></div>
+                <div id="instructions_2"></div>
+                <div id="given_text">
+                    <span id="text_array"></span></div>
+            </div>
+            <div id="text_area"></div>
+            <textarea id="input_text"></textarea>
+            <div id="stats">
+                <div id="statistics" class="stats_class">Statistics: </div>
+                <div class="stats_class">Time elapsed: <span id="time_elapsed">0:00</span></div>
+                <div id="WPM" class="stats_class">WPM: <span id="wpm">0</span></div>
+                <div id="errors" class="stats_class">Error: <span id="errors">0%</span></div>
+                <div id="char_typed" class="stats_class">Character typed: <span id="chars">0</span></div>
+            </div>
+            <div id= "buttons">
+                
+                <input type="button" id="new_button" value="New" class="action-button shadow animate red but">
+                <input type="button" id="pause_button" value="Pause" class="action-button shadow animate blue but"> 
+                
+            </div>
+        </div>
+        <div id="copyrights">All Right Reserved (c)</div>
+    </body>
+</html>
